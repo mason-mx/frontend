@@ -11,7 +11,7 @@ email: your-email@domain.com
 description: > # this means to ignore newlines until "baseurl:"
   A Bootstrap based jekyll themes.
 
-baseurl: "/FrontEnd" # the subpath of your site, e.g. /blog
+baseurl: "/frontend" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site
 
 #footer

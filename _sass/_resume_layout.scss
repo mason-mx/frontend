@@ -1,0 +1,211 @@
+html, body {
+	font-family: $base-font-family;
+	font-size: $base-font-size;
+}
+
+.header {
+	background: $blue-color-light;
+	color: $header-text-color;
+
+	.top-bar {
+		position: relative;
+		padding-top: 15px;
+		padding-bottom: 120px;
+
+		.actions {
+			position: absolute;
+			right: 15px;
+			top: 15px;
+
+			a {
+				margin-right: 10px;
+				color: $white-color-dark;
+			}
+
+			a:last-child {
+				margin-right: 0;
+			}
+
+		}
+
+		.social {
+			margin-bottom: 0;
+
+			a {
+				color: $white-color-dark;
+				display: inline-block;
+				text-align: center;
+				width: 32px;
+				height: 32px;
+				-webkit-border-radius: 50%;
+				-moz-border-radius: 50%;
+				-ms-border-radius: 50%;
+				-o-border-radius: 50%;
+				border-radius: 50%;
+				-moz-background-clip: padding;
+				-webkit-background-clip: padding-box;
+				background-clip: padding-box;
+				padding-top: 3px;
+				border: 2px solid $white-color-dark;
+			}
+
+			a:hover {
+				color: $header-text-color;
+				border-color: $header-text-color;
+			}
+
+		}
+
+	}
+
+	.intro {
+		background: $blue-color-dark-2;
+		padding-top: 90px;
+		padding-bottom: 60px;
+		position: relative;
+
+		.profile-image {
+			position: absolute;
+			width: 160px;
+			height: 160px;
+			top: -80px;
+			margin-left: -80px;
+			left: 50%;
+		}
+
+		.name {
+			font-size: 48px;
+			margin-bottom: 15px;
+			letter-spacing: 0.5px;
+		}
+
+		.title {
+			font-size: 28px;
+			font-weight: 300;
+			color: $white-color-dark;
+			margin-bottom: 30px;
+		}
+
+		.profile {
+			max-width: 800px;
+			margin: 0 auto;
+		}
+
+	}
+
+	.contact-info {
+		background: $blue-color-dark;
+		padding-top: 30px;
+		padding-bottom: 30px;
+
+		ul {
+			margin-bottom: 0;
+		}
+
+		li {
+			margin-right: 30px;
+			color: $white-color-dark;
+
+			a {
+				color: $white-color-dark;
+			}
+
+			a:hover {
+				color: $header-text-color;
+			}
+
+			li:last-child {
+				margin-right: 0;
+			}
+
+		}
+
+	}
+
+	.page-nav-space-holder {
+		height: 60px;
+		position: relative;
+	}
+
+	.page-nav-wrapper {
+		background: $blue-color;
+		padding-top: 20px;
+		padding-bottom: 20px;
+		position: absolute;
+		width: 100%;
+		left: 0;
+		-webkit-box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+		-moz-box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+		box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+
+		.page-nav {
+			margin: 0 auto;
+			display: inline-block;
+
+			li {
+				margin-right: 30px;
+				display: inline-block;
+				background: none;
+
+				a {
+					color: $white-color-dark;
+					padding: inherit;
+				}
+
+				a:hover {
+					color: $white-color;
+				}
+
+			}
+
+			li:last-child {
+				margin-right: 0;
+			}
+
+		}
+
+	}
+
+	.page-nav-wrapper.fixed {
+		position: fixed;
+		top: 0;
+		left: 0;
+		width: 100%;
+		z-index: 100;
+		background: $blue-color-dark;
+	}
+
+}
+
+.wrapper {
+	padding-top: 60px;
+	padding-bottom: 60px;
+
+	.section {
+		-webkit-box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.2);
+		-moz-box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.2);
+		box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.2);
+		padding: 45px;
+		margin-bottom: 45px;
+		-webkit-border-radius: 2px;
+		-moz-border-radius: 2px;
+		-ms-border-radius: 2px;
+		-o-border-radius: 2px;
+		border-radius: 2px;
+		-moz-background-clip: padding;
+		-webkit-background-clip: padding-box;
+		background-clip: padding-box;
+	}
+
+	.section:last-child {
+		margin-bottom: 0;
+	}
+
+	.section-title {
+		margin-top: 0;
+		margin-bottom: 45px;
+		font-size: 24px;
+		text-align: center;
+	}
+
+}

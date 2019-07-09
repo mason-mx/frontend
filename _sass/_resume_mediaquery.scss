@@ -11,11 +11,11 @@
 					margin-bottom: 15px;
 					font-size: 12px;
 					display: inline-block;
-					width: 100%
+					width: 100%;
 				}
 
 				.btn:last-child {
-					margin-bottom: 0
+					margin-bottom: 0;
 				}
 			}
 
@@ -66,16 +66,16 @@
 			.place {
 				margin-bottom: 5px;
 			}
-		}
 
-		.job-meta {
-			position: static;
-			margin-bottom: 15px;
-			
-			.title {
-				max-width: none;
+			.job-meta {
+				position: static;
+				margin-bottom: 15px;
+				
+				.title {
+					max-width: none;
+				}
 			}
-		}
+		}		
 
 		.education-section {
 			.item {
@@ -91,39 +91,39 @@
 
 		.portfolio-section .item-inner .content {
 			padding: 15px;
-		}
 
-		.portfolio-section .item-inner .content .sub-title {
-			font-size: 14px;
-			max-width: 120px;
-			overflow: hidden;
-			text-overflow: ellipsis;
-			white-space: nowrap;
-		}
+			.sub-title {
+				font-size: 14px;
+				max-width: 120px;
+				overflow: hidden;
+				text-overflow: ellipsis;
+				white-space: nowrap;
+			}
 
-		.portfolio-section .item-inner .content .meta {
-			margin-bottom: 30px;
-			max-width: 120px;
-			overflow: hidden;
-			text-overflow: ellipsis;
-			white-space: nowrap;
-		}
+			.meta {
+				margin-bottom: 30px;
+				max-width: 120px;
+				overflow: hidden;
+				text-overflow: ellipsis;
+				white-space: nowrap;
+			}
 
-		.portfolio-section .item-inner .content .action {
-			position: static;
-			font-size: 12px;
+			.action {
+				position: static;
+				font-size: 12px;
+			}
 		}
 
 		.contact-section .intro {
 			padding: 0;
 			text-align: center;
-		}
 
-		.contact-section .intro .profile-image {
-			position: static;
-			margin: 0 auto;
-			margin-bottom: 30px;
-			text-align: center;
+			.profile-image {
+				position: static;
+				margin: 0 auto;
+				margin-bottom: 30px;
+				text-align: center;
+			}
 		}
 
 		.contact-section .service-list {

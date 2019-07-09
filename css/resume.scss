@@ -41,5 +41,6 @@ $header-text-color:       white;
 
 // Import partials from `sass_dir` (defaults to `_sass`)
 @import
-        "resume_layout"
+    "resume_layout",
+    "resume_mediaquery"
 ;

@@ -1,0 +1,137 @@
+@media (max-width:767px) {
+	.header {
+		.top-bar {
+			.actions {
+				position: static;
+				margin: 0 auto;
+				margin-bottom: 30px;
+				text-align: center;
+
+				.btn {
+					margin-bottom: 15px;
+					font-size: 12px;
+					display: inline-block;
+					width: 100%
+				}
+
+				.btn:last-child {
+					margin-bottom: 0
+				}
+			}
+
+			.social {
+				margin: 0 auto;
+				text-align: center;
+			}
+		}
+
+		.intro {
+			.name {
+				font-size: 36px;
+			}
+
+			.title {
+				font-size: 22px;
+			}
+		}
+
+		.contact-info {
+			li {
+				margin-right: 0;
+				margin-bottom: 15px;
+				font-size: 14px;
+				width: 100%;
+				display: inline-block;
+			}
+
+			li:last-child {
+				margin-bottom: 0;
+			}
+		}
+	}
+
+	.wrapper {
+		.section {
+			padding: 30px;
+		}
+
+		.section-title {
+			font-size: 20px;
+		}
+
+		.timeline {
+			margin-left: 0;
+			padding-right: 0;
+
+			.place {
+				margin-bottom: 5px;
+			}
+		}
+
+		.job-meta {
+			position: static;
+			margin-bottom: 15px;
+			
+			.title {
+				max-width: none;
+			}
+		}
+
+		.education-section {
+			.item {
+				padding: 0;
+			}
+		}
+
+		.portfolio-section .filters .type {
+			font-size: 12px;
+			margin-right: 5px;
+			padding: 8px 5px;
+		}
+
+		.portfolio-section .item-inner .content {
+			padding: 15px;
+		}
+
+		.portfolio-section .item-inner .content .sub-title {
+			font-size: 14px;
+			max-width: 120px;
+			overflow: hidden;
+			text-overflow: ellipsis;
+			white-space: nowrap;
+		}
+
+		.portfolio-section .item-inner .content .meta {
+			margin-bottom: 30px;
+			max-width: 120px;
+			overflow: hidden;
+			text-overflow: ellipsis;
+			white-space: nowrap;
+		}
+
+		.portfolio-section .item-inner .content .action {
+			position: static;
+			font-size: 12px;
+		}
+
+		.contact-section .intro {
+			padding: 0;
+			text-align: center;
+		}
+
+		.contact-section .intro .profile-image {
+			position: static;
+			margin: 0 auto;
+			margin-bottom: 30px;
+			text-align: center;
+		}
+
+		.contact-section .service-list {
+			margin-left: 0;
+		}
+
+		.contact-section .social {
+			margin: 0 auto;
+		}
+	}
+}

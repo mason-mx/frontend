@@ -9,7 +9,10 @@
 $base-font-family: 'Roboto', Helvetica, Arial, sans-serif;
 $base-font-size:   16px;
 $base-font-weight: 400;
-$small-font-size:  $base-font-size * 0.875;
+$sm-font-size:  $base-font-size * 0.875;
+$md-font-size:  $base-font-size * 1.5;
+$lg-font-size:  $base-font-size * 2;
+$xl-font-size:  $base-font-size * 3;
 $base-line-height: 1.5;
 
 $spacing-unit:     30px;

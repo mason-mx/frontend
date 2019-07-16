@@ -16,21 +16,21 @@
 
         .intro-lead-in {
             font-style: italic;
-            font-size: 22px;
-            line-height: 22px;
-            margin-bottom: 25px;
+            font-size: $md-font-size;
+            line-height: $base-line-height;
+            margin-bottom: $spacing-unit;
         }
 
         .intro-heading {
             font-weight: bold;
-            font-size: 50px;
-            line-height: 50px;
-            margin-bottom: 25px;
+            font-size: $xl-font-size;
+            line-height: $base-line-height;
+            margin-bottom: $spacing-unit;
         }
     }
 
     .video-holder {
-        margin: 25px 0;
+        margin: $spacing-unit 0;
     }
 
     video {

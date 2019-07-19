@@ -25,6 +25,10 @@ $blue-color-dark-2:  darken($blue-color, 10%);
 $white-color:       white;
 $white-color-dark:  darken($white-color, 25%);
 
+$black-color:       black;
+$black-color-light: lighten($black-color, 5%);
+$black-color-light-2: lighten($black-color, 10%);
+
 $background-color: #fdfdfd;
 $body-text-color:      black;
 $header-text-color:       white;

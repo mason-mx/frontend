@@ -187,14 +187,16 @@
             }
         }
 
-        :hover .overlay {
-            opacity: 1;
-            visibility: visible;
-        }
+        &:hover {
+            .overlay {
+                opacity: 1;
+                visibility: visible;
+            }
 
-        :hover .overlay-background {
-            opacity: .8;
-            visibility: visible;
+            .overlay-background {
+                opacity: .8;
+                visibility: visible;
+            }
         }
     }
 
@@ -263,7 +265,7 @@
         font-size: $lg-font-size;
     }
 
-    :hover {
+    &:hover {
         .info {
             opacity: 1;
             filter: alpha(opacity=100);

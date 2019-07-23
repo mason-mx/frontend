@@ -186,15 +186,16 @@
                 height: 100%;
             }
         }
-    }
 
-    figure:hover .overlay {
-        opacity: 1;
-        visibility: visible;
-    }
-    figure:hover .overlay-background {
-        opacity: .8;
-        visibility: visible;
+        :hover .overlay {
+            opacity: 1;
+            visibility: visible;
+        }
+
+        :hover .overlay-background {
+            opacity: .8;
+            visibility: visible;
+        }
     }
 
     .info-head {
@@ -279,6 +280,6 @@
 }
 
 footer {
-    background-color: $black-color-light-2;
+    background-color: $navbar-color;
     color: $white-color;
 }

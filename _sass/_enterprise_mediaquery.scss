@@ -1,8 +1,18 @@
-@media (min-width:769px) {
+@media (orientation: portrait) {
 	.hero-header {
 	    .intro-text {
-	        padding-top: 300px;
-	        padding-bottom: 200px;
+	        padding-top: 100px;
+	        padding-bottom: 50px;
+	    }
+	}
+
+	.padding-top {
+	    padding: $spacing-unit-palm 0;
+	}
+
+	.features {
+	    .feature-box {
+	        padding: 5px 0;
 	    }
 	}
 }

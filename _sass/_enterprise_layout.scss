@@ -60,15 +60,17 @@
     .feature-box {
         padding: 15px 0;
 
-        i {
-            background: $blue-color;
-            border-radius: $lg-font-size;
-            color: $white-color;
-            height: $lg-font-size;
-            line-height: $lg-font-size;
-            width: $lg-font-size;
-            text-align: center;
-        }
+        .box-icon {
+            font-size: $base-font-size;
+
+            i {
+                background: $blue-color;
+                color: $white-color;
+                border-radius: 50px;
+                box-shadow: 0px 0px 2px #888;
+                padding: 0.5em 0.6em;
+            }
+        }        
     }
 }
 

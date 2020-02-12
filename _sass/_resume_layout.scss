@@ -208,8 +208,8 @@ html, body {
 		border-bottom-right-radius: 2px;
 		border-top-right-radius: 2px;
 		position: relative;
-		padding: 0 30px;
-		margin-left: 280px;
+		padding: 0 20px;
+		margin-left: 260px;
 
 		.item {
 			position: relative;
@@ -223,7 +223,7 @@ html, body {
 		.item:before {
 			content: "";
 			position: absolute;
-			left: -43px;
+			left: -33px;
 			top: 0;
 			display: inline-block;
 			width: 22px;
@@ -243,7 +243,7 @@ html, body {
 		.item:after {
 			content: "";
 			position: absolute;
-			left: -37px;
+			left: -27px;
 			top: 6px;
 			display: inline-block;
 			width: 10px;
@@ -265,10 +265,10 @@ html, body {
 		}
 
 		.location {
-			position: absolute;
 			right: 0;
 			top: 2px;
 			color: #8a8a8a;
+			text-align: right;
 
 			.svg-inline--fa {
 				margin-right: 5px;

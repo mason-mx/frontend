@@ -1,4 +1,4 @@
-@media (max-width:767px) {
+@media (max-width:991px) {
 	.header {
 		.top-bar {
 			.actions {
@@ -65,6 +65,10 @@
 
 			.place {
 				margin-bottom: 5px;
+			}
+
+			.location {
+				text-align: left;
 			}
 
 			.job-meta {
